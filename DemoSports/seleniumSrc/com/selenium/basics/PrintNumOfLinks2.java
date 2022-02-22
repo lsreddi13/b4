@@ -21,7 +21,7 @@ public class PrintNumOfLinks2 {
 		String url = "https://opensource-demo.orangehrmlive.com/index.php/auth/login";
 		// application login page launched
 		driver.get(url);
-		driver.findElement(By.id("")).
+		
 
 		// create object to access the non static methods and vars.
 		PrintNumOfLinks2 obj = new PrintNumOfLinks2();

@@ -96,6 +96,15 @@ public class DemoForEach {
 		
 		u_Name.getAttribute("");
 		u_Name.getCssValue("");
+		u_Name.getLocation();
+		u_Name.getSize();
+		u_Name.getTagName();
+		u_Name.isDisplayed();
+		
+		u_Name.isEnabled();
+		u_Name.isSelected();
+		u_Name.submit();
+		
 		
 		
 		
