@@ -10,12 +10,14 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.safari.SafariDriver;
+import org.testng.annotations.Test;
 
 public class OpenChromeBrowser {
 //
 	public static WebDriver driver;
 
-	public static void main(String[] args) {
+	@Test
+	public void testP() {
 
 		System.setProperty("webdriver.chrome.driver", ".\\BrowserDrivers\\chromedriver.exe");
 
@@ -60,18 +62,16 @@ public class OpenChromeBrowser {
 
 		String pageTitle = driver.getTitle();
 		System.out.println("page title : " + pageTitle);
-		
+
 		WebElement btn1 = driver.findElement(By.id("btnSearchValues"));
-		
+
 		String value = btn1.getAttribute("value");
-		
+
 		System.out.println("button name : " + value);
-		
+
 		String text = driver.findElement(By.tagName("h1")).getText();
-		System.out.println("text : "+text);
-		
-		
-		
+		System.out.println("text : " + text);
+
 //		driver.findElement(By.name())
 //		driver.findElement(By.className())
 //		driver.findElement(By.linkText())
