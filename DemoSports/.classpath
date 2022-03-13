@@ -9,6 +9,7 @@
 	<classpathentry kind="src" path="src2"/>
 	<classpathentry kind="src" path="seleniumSrc"/>
 	<classpathentry kind="src" path="src3"/>
+	<classpathentry kind="src" path="sikuli"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="lib" path="Libraries/jar_files (1)/animal-sniffer-annotations-1.14.jar"/>
 	<classpathentry kind="lib" path="Libraries/jar_files (1)/byte-buddy-1.8.15.jar"/>
@@ -57,5 +58,7 @@
 	<classpathentry kind="lib" path="webdrivvermanager/jna-5.8.0.jar"/>
 	<classpathentry kind="lib" path="webdrivvermanager/slf4j-api-1.7.36.jar"/>
 	<classpathentry kind="lib" path="webdrivvermanager/webdrivermanager-5.1.0.jar"/>
+	<classpathentry kind="lib" path="sikulijars/sikulixapi-2.0.5.jar"/>
+	<classpathentry kind="lib" path="sikulijars/sikulixapi-2.0.5-win.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
